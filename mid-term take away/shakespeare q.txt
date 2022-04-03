@@ -1,0 +1,17 @@
+Read in all of Shakespeare's publications in a pandas dataframe, and start answering questions below:
+
+Part 1)
+Do a word Cloud of all of Shakespeare's works (remove stopwords and, optionally, stem and lemmatize). You may use a python library of your choice. What's the average number of words per sentence (note: for poems, consider each line to be a separate sentence)? What's the average number of words per sentence per type of publication (drama, comedy, history, poem)?
+
+Part 2)
+What's the probability that Shakespeare asks a question?
+What's the distribution of the number of questions for all his works? What's the distribution of the number of questions based on genre (comedies, tragedies, histories, sonnets)? Note that sonnets (poems) don't have many questions, so you may not find any in that genre.
+What well known probability distributions could you match each one with? If not possible, how could you simplify the problem (maybe get rid of some outliers?) to answer this question? 
+
+Part 3)
+Do a sentiment analysis of Shakespeare's sentences and find the sentiment distribution per genre (comedies, tragedies, histories, sonnets). You can do that by downloading a library that can classify each sentence into different sentiments. I think most sentiment analysis libraries classify in 6 main sentiments, but if you can find a library that distinguishes between more than 6, you are welcome to use that! What kind of model could you match these distributions? Can you find the model's parameters? Are they different based on genre?
+
+Part 4)
+Do a time series analysis for each genre (i.e. one for drama, one for comedy, etc.) of the 6 main sentiments. Smooth out the time series with a method of your choice, to get rid of noise. What can you conclude about sentiment in Shakespeare's works? What's your favorite work, and why?
+
+This is an individual assignment. No groups.
